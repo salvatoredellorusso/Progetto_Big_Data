@@ -1,0 +1,72 @@
+C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\Scripts\python.exe C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\definitivo5.py 
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/08/05 12:17:59 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+2024-08-05 12:18:00,326 - INFO - Defined preprocessing functions and UDF
+2024-08-05 12:18:00,366 - INFO - Cleaned text for OBAMA tweets
+2024-08-05 12:18:00,386 - INFO - Cleaned text for ROMNEY tweets
+2024-08-05 12:18:00,386 - INFO - Defined lists of positive and negative words
+2024-08-05 12:18:00,387 - INFO - Registered UDF for sentiment calculation
+2024-08-05 12:18:00,446 - INFO - Applied sentiment UDF to OBAMA and ROMNEY dataframes
+2024-08-05 12:18:00,566 - INFO - Sentiment selection done
+2024-08-05 12:18:00,566 - INFO - Calcolo delle frequenze per la colonna: text
+2024-08-05 12:18:51,889 - INFO - Numero di parole uniche trovate: 35885
+2024-08-05 12:18:51,889 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('still', 327), ('hope', 74), ('jewelry', 2), ('beginning;', 3), ('http://t.co/swo0dj3x', 2), ("president's", 15), ('tax-hike', 1), ('#obamathehypocrite', 1), ('http://t.co/zufhobiz', 1), ('@reppaulryan', 6)]
+Primi 15 elementi ordinati: {'#obama': 11860, 'obama': 3264, '#tcot': 2454, 'president': 2041, '#obama2012': 1634, '#describeobamainoneword': 1270, '#p2': 1258, 'romney': 765, 'embassy': 686, 'vote': 670, '#libya': 619, 'via': 613, "#obama's": 611, 'just': 608, '#gop': 604}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 28957
+2024-08-05 12:18:54,780 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:18:58,932 - INFO - Calcolo delle frequenze per la colonna: text
+2024-08-05 12:19:42,367 - INFO - Numero di parole uniche trovate: 9503
+2024-08-05 12:19:42,367 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('still', 32), ('#wiunion', 6), ("president's", 9), ('http://t.co/5afqrtom', 1), ('requirement', 1), ('recognize', 1), ('#fuckromney', 12), ('nero(obama)', 2), ('cinches', 1), ('19.5%', 7)]
+Primi 15 elementi ordinati: {'obama': 1374, '#romney': 1031, '#romneyryan2012': 929, 'president': 788, '#tcot': 672, 'romney': 568, '#describeromneyinoneword': 481, "obama's": 323, '#teaparty': 270, '#gop': 249, 'mitt': 242, 'election': 210, '#mittromney': 190, 'new': 189, '#romney2012': 182}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 7698
+2024-08-05 12:19:45,123 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:19:48,383 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:20:43,650 - INFO - Numero di parole uniche trovate: 13053
+Primi 10 elementi del dizionario: [('still', 331), ('hope', 129), ('jewelry', 2), ('online', 15), ('trail', 16), ('everyday', 14), ('art', 58), ('standards', 9), ('medicare', 16), ('bushs', 1)]
+2024-08-05 12:20:43,650 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 15 elementi ordinati: {'obama': 4603, 'president': 2740, 'romney': 942, 'can': 879, 'vote': 801, 'embassy': 715, 'via': 624, 'just': 616, 'like': 562, 'libya': 557, 'now': 554, 'don': 543, 'policy': 529, 'america': 526, 'foreign': 521}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 15712
+2024-08-05 12:20:46,928 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:20:49,744 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:21:31,040 - INFO - Numero di parole uniche trovate: 4723
+2024-08-05 12:21:31,040 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('still', 34), ('requirement', 1), ('guts', 1), ('recognize', 1), ('cinches', 1), ('hope', 18), ('qaeda', 5), ('zealots', 2), ('taking', 18), ('blasts', 18)]
+Primi 15 elementi ordinati: {'obama': 2142, 'president': 1109, 'romney': 670, 'election': 297, 'mitt': 265, 'new': 192, 'poll': 181, 'usa': 155, 'americans': 153, 'tweet': 148, 'libya': 137, 'one': 127, 'attack': 127, 'can': 125, 'day': 121}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 5949
+2024-08-05 12:21:35,291 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:21:43,060 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:22:50,419 - INFO - Numero di parole uniche trovate: 4955
+2024-08-05 12:22:50,420 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('still', 168), ('freaks', 7), ('hope', 12), ('online', 5), ('interaction', 1), ('trail', 1), ('medicare', 9), ('debunked', 1), ('worked', 18), ('nausea', 4)]
+Primi 15 elementi ordinati: {'obama': 738, 'like': 506, 'support': 345, 'president': 328, 'won': 314, 'good': 268, 'right': 250, 'embassy': 244, 'intelligence': 203, 'love': 190, 'can': 174, 'wh': 171, 'still': 168, 'rest': 163, 'ousted': 159}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 4221
+2024-08-05 12:22:53,467 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:22:57,307 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:23:56,732 - INFO - Numero di parole uniche trovate: 848
+Primi 10 elementi del dizionario: [('still', 2), ('staff', 4), ('auction', 1), ('terrorists', 3), ('newton', 1), ('watch', 2), ('countries', 1), ('anti', 1), ('shut', 2), ('mideast', 3)]
+Primi 15 elementi ordinati: {'obama': 131, 'president': 53, 'romney': 33, 'libya': 29, 'americans': 28, 'campaign': 26, 'bad': 21, 'killed': 21, 'fuck': 21, 'died': 18, 'debt': 17, 'foreign': 16, 'country': 16, 'ambassador': 15, 'stupid': 15}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 460
+2024-08-05 12:23:56,732 - INFO - Tracciamento dell'istogramma delle frequenze
+2024-08-05 12:25:14,146 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:25:16,738 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:26:14,124 - INFO - Numero di parole uniche trovate: 1647
+2024-08-05 12:26:14,124 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('hope', 7), ('still', 3), ('viewpoint', 1), ('roundabout', 1), ('art', 1), ('3x', 1), ('medicare', 1), ('yrs', 1), ('qaeda', 1), ('defeated', 2)]
+Primi 15 elementi ordinati: {'obama': 388, 'president': 117, 'like': 97, 'romney': 95, 'defeat': 61, 'said': 58, 'nuff': 56, 'toast': 56, 'countdown': 56, 'right': 53, 'election': 47, 'good': 43, 'can': 36, 'mitt': 36, 'really': 32}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 1231
+2024-08-05 12:26:16,756 - INFO - Creazione della wordcloud delle frequenze
+2024-08-05 12:26:20,053 - INFO - Calcolo delle frequenze per la colonna: text_cln
+2024-08-05 12:27:24,620 - INFO - Numero di parole uniche trovate: 2545
+2024-08-05 12:27:24,620 - INFO - Tracciamento dell'istogramma delle frequenze
+Primi 10 elementi del dizionario: [('unneccesary', 2), ('still', 32), ('everyday', 6), ('hope', 6), ('inner', 1), ('online', 1), ('trail', 1), ('tortured', 1), ('commanders', 1), ('priority', 1)]
+Primi 15 elementi ordinati: {'obama': 282, 'killed': 190, 'president': 137, 'radical': 128, 'fuck': 103, 'bad': 98, 'ambassador': 94, 'america': 83, 'americans': 81, 'islam': 76, 'libya': 68, 'many': 64, 'people': 62, 'debt': 61, 'romney': 59}
+La somma totale delle frequenze delle parole (dopo aver filtrato le stopwords) è: 1586
+2024-08-05 12:32:38,359 - INFO - Creazione della wordcloud delle frequenze
+SUCCESS: The process with PID 17220 (child process of PID 30192) has been terminated.
+SUCCESS: The process with PID 30192 (child process of PID 27680) has been terminated.
+SUCCESS: The process with PID 27680 (child process of PID 18252) has been terminated.
+
+Process finished with exit code 0

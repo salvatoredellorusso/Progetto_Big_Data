@@ -1,0 +1,93 @@
+C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\Scripts\python.exe C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\net.py 
+:: loading settings :: url = jar:file:/C:/spark/spark-3.5.1-bin-hadoop3/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: C:\Users\salvatore\.ivy2\cache
+The jars for the packages stored in: C:\Users\salvatore\.ivy2\jars
+graphframes#graphframes added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-e9ebc8a3-24f9-4fbb-b18b-12038beffd48;1.0
+	confs: [default]
+	found graphframes#graphframes;0.8.2-spark3.0-s_2.12 in spark-packages
+	found org.slf4j#slf4j-api;1.7.16 in central
+:: resolution report :: resolve 332ms :: artifacts dl 23ms
+	:: modules in use:
+	graphframes#graphframes;0.8.2-spark3.0-s_2.12 from spark-packages in [default]
+	org.slf4j#slf4j-api;1.7.16 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   2   |   0   |   0   |   0   ||   2   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-e9ebc8a3-24f9-4fbb-b18b-12038beffd48
+	confs: [default]
+	0 artifacts copied, 2 already retrieved (0kB/20ms)
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+INFO:__main__:Caricamento dei dati...
+24/08/04 18:58:37 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+Numero righe tweets_df 999673
+INFO:__main__:Numero di utenti distinti: 493904
+INFO:__main__:Numero di edge: 444457
+C:\spark\spark-3.5.1-bin-hadoop3\python\pyspark\sql\dataframe.py:168: UserWarning: DataFrame.sql_ctx is an internal property, and will be removed in future releases. Use DataFrame.sparkSession instead.
+  warnings.warn(
+C:\spark\spark-3.5.1-bin-hadoop3\python\pyspark\sql\dataframe.py:147: UserWarning: DataFrame constructor is internal. Do not directly use it.
+  warnings.warn("DataFrame constructor is internal. Do not directly use it.")
+Degree Centrality:
++------------------+------+
+|                id|degree|
++------------------+------+
+|          MikeJ500|    46|
+|       Spittoonist|     2|
+|       Greg Howard|   453|
+|      Dason Thomas|     1|
+|      Joy Guevarra|     3|
+|    Cheryl D Jones|    12|
+|Original Argument |    49|
+|         Mmbusch66|    25|
+|      Luz Gonzalez|     1|
+|       alexa chung|   226|
+|The New York Times|   463|
+|               ...|    59|
+|        Sugarscape|    94|
+|      Bob Guildner|     9|
+|       harry prima|     1|
++------------------+------+
+only showing top 15 rows
+
+Top 10 nodes by Degree Centrality calcolati
++------------------+------+
+|                id|degree|
++------------------+------+
+|      Barack Obama| 14358|
+|  Shit Nobody Says|  9662|
+|       Niall Horan|  8134|
+|   Donald J. Trump|  7212|
+|THE X FACTOR (USA)|  6700|
+|    Alfredo Flores|  2964|
+|        Obama 2012|  2613|
+|        Kevin Eder|  2039|
+|   Michelle Malkin|  1981|
+|    Laura Ingraham|  1661|
++------------------+------+
+only showing top 10 rows
+
+Il numero totale di link nella rete sono 444457
+Normalizzo i valori della degree per il numero totale di links nella rete e calcolo la percentuale
++------+------------+
+|degree|fract_degree|
++------+------------+
+| 14358|        3.23|
+|  9662|        2.17|
+|  8134|        1.83|
+|  7212|        1.62|
+|  6700|        1.51|
+|  2964|        0.67|
+|  2613|        0.59|
+|  2039|        0.46|
+|  1981|        0.45|
+|  1661|        0.37|
++------+------------+
+only showing top 10 rows
+
+INFO:py4j.clientserver:Closing down clientserver connection
+
+Process finished with exit code 0

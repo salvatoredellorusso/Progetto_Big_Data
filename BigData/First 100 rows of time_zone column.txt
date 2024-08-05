@@ -1,0 +1,101 @@
+
+|Eastern Time (US & Canada) |
+|Central Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Pacific Time (US & Canada) |
+|Buenos Aires               |
+|Amsterdam                  |
+|Central Time (US & Canada) |
+|Atlantic Time (Canada)     |
+|Eastern Time (US & Canada) |
+|Brasilia                   |
+|Central Time (US & Canada) |
+|Central Time (US & Canada) |
+|Atlantic Time (Canada)     |
+|Eastern Time (US & Canada) |
+|Brasilia                   |
+|Eastern Time (US & Canada) |
+|Athens                     |
+|Pacific Time (US & Canada) |
+|Central Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Central Time (US & Canada) |
+|Quito                      |
+|Eastern Time (US & Canada) |
+|Pacific Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Central Time (US & Canada) |
+|London                     |
+|Central Time (US & Canada) |
+|Cairo                      |
+|West Central Africa        |
+|Indiana (East)             |
+|Central Time (US & Canada) |
+|Irkutsk                    |
+|Santiago                   |
+|Cairo                      |
+|Quito                      |
+|Central Time (US & Canada) |
+|Central Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Atlantic Time (Canada)     |
+|Central Time (US & Canada) |
+|Pacific Time (US & Canada) |
+|Alaska                     |
+|Caracas                    |
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Athens                     |
+|Eastern Time (US & Canada) |
+|Mountain Time (US & Canada)|
+|London                     |
+|London                     |
+|Pacific Time (US & Canada) |
+|Athens                     |
+|Brasilia                   |
+|Atlantic Time (Canada)     |
+|Eastern Time (US & Canada) |
+|Amsterdam                  |
+|Central Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Brasilia                   |
+|Pacific Time (US & Canada) |
+|Mountain Time (US & Canada)|
+|Hawaii                     |
+|London                     |
+|Eastern Time (US & Canada) |
+|Buenos Aires               |
+|Atlantic Time (Canada)     |
+|Mountain Time (US & Canada)|
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Central Time (US & Canada) |
+|Central Time (US & Canada) |
+|Mountain Time (US & Canada)|
+|Central Time (US & Canada) |
+|Mountain Time (US & Canada)|
+|Cairo                      |
+|Pacific Time (US & Canada) |
+|Central Time (US & Canada) |
+|Pacific Time (US & Canada) |
+|Central Time (US & Canada) |
+|Quito                      |
+|Chennai                    |
+|Eastern Time (US & Canada) |
+|Central Time (US & Canada) |
+|Hawaii                     |
+|Cairo                      |
+|Brisbane                   |
+|Central Time (US & Canada) |
+|Mountain Time (US & Canada)|
+|Pacific Time (US & Canada) |
+|Atlantic Time (Canada)     |
+|Pacific Time (US & Canada) |
+|Cairo                      |
+|Central Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Eastern Time (US & Canada) |
+|Brasilia                   |

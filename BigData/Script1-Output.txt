@@ -1,0 +1,69 @@
+C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\Scripts\python.exe C:\Users\salvatore\PycharmProjects\progetto_pasquini\.venv\Script1.py 
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/08/05 14:26:58 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+Il numero delle colonne principali (o primarie) del DataFrame generale è: 23 e il numero di righe è 1000000
+Il DataFrame ha 248 colonne secondarie.
+Il DataFrame ha 271 colonne totali (primarie + secondarie).
+Per il data set senza duplicati ci sono 444457 retweets, 114457 repliche e 440759 di nessuna delle due caterogie precendenti. 
+Check: True
+La lunghezza media del testo di un tweet (in caratteri) è: 110.0
+Sono state eliminate delle linee duplicate, le righe attuali sono 999673, quello originale erano 1000000
++-------------------+-------------------+
+|      min_timestamp|      max_timestamp|
++-------------------+-------------------+
+|2012-09-13 03:30:22|2012-09-14 05:25:11|
++-------------------+-------------------+
+
+5790
+8153
+8153
+406644
+La lunghezza media del testo di un tweet USA (in caratteri) è: 113.0
+Per il data set USA ci sono 192714 retweets, 39765 repliche e 174165 di nessuna delle due caterogie precendenti. 
+Check: True
+Il numero di tweets americani e con hashtags sono: 100982
+Il numero di testi di tweet analizzato è 406644
+Tutti testi del dataframe post data cleaning sono presenti
+114457
+444457
+39765
+192714
+La somma dei valori nella colonna 'retweet_count' per source_tw_obama (17784 tweets) è: 996710
+La somma dei valori nella colonna 'retweet_count' per source_tw_romney (3581 tweets) è: 221170
+Il numero di tweets che hanno degli hashtags è 247528
+Il numero di tweets che hanno hashtag obama rispetto a data_no_dupl sono 36699
+Per il data set Obama ci sono 15879 retweets, 2453 repliche e 18367 di nessuna delle due caterogie precendenti. 
+Check: True
+Il numero di tweets che hanno hashtag romney rispetto a data_no_dupl sono 6660
+Per il data set Romney ci sono 2943 retweets, 453 repliche e 3264 di nessuna delle due caterogie precendenti. 
+Check: True
++---------+-----+
+|sentiment|count|
++---------+-----+
+|   neutro|17903|
+| negativo|11798|
+| positivo| 6998|
++---------+-----+
+
++---------+-----+
+|sentiment|count|
++---------+-----+
+|   neutro| 3001|
+| negativo| 2375|
+| positivo| 1284|
++---------+-----+
+
+Il numero di tweets positivi per obama è 6998
+Tra i tweets con sentiment positivo di obama (6998), 2992 sono retweets
+Il numero di tweets sorgente retwettati da un tweet su obama (con sentiment positivo) che rispondono a un tweet sono 118
+Il numero di tweets positivi per romney è 1284
+Tra i tweets con sentiment positivo di romney (1284), 531 sono retweets
+Il numero di tweets sorgente retwettati da un tweet su romney (con sentiment positivo) che rispondono a un tweet sono 42
+Il numero di tweets del df oba_neg è 11798
+Il numero di tweets del df rom_neg è 2375
+SUCCESS: The process with PID 8184 (child process of PID 29992) has been terminated.
+SUCCESS: The process with PID 29992 (child process of PID 22824) has been terminated.
+SUCCESS: The process with PID 22824 (child process of PID 15420) has been terminated.
+
+Process finished with exit code 0
